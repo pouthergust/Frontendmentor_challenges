@@ -1,0 +1,93 @@
+@font-face {
+  font-family: "Outfit";
+  src: url("./../assets/fonts/outfit/Outfit-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: "Young";
+  src: url("./../assets/fonts/young-serif/YoungSerif-Regular.ttf");
+}
+
+::marker {
+  color: #80443E;
+  font-weight: 700;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  color: #2F2D2C;
+  margin: 0;
+  padding: 0;
+}
+
+ul, ol {
+  padding-left: 20px;
+}
+
+li {
+  padding: 10px 0 10px 15px;
+}
+
+.recipe__background {
+  transition: 
+  background-color ease-in-out .3s,
+  padding ease-in-out .3s
+  ;
+}
+
+.recipe__content {
+  background-color: #fff;
+  max-width: 900px;
+  margin: auto;
+  padding: 24px 32px;
+  transition: border-radius ease-in-out .3s;
+}
+
+.recipe__img {
+  max-width: 100%;
+  border-radius: 16px;
+}
+
+.recipe__sectionTitle {
+  font-weight: 500;
+  font-family: "young", sans-serif;
+}
+
+h1.recipe__sectionTitle { font-size: 32px; }
+h2.recipe__sectionTitle { color: #80443E; }
+h3.recipe__sectionTitle { color: #6C3A52; }
+
+.recipe__section.--mention {
+  background-color: #FFF7FC;
+  border-radius: 16px;
+  padding: 16px 24px;
+  margin: 24px auto;
+}
+
+.divider {
+  background-color: #c7c7c7;
+  height: 1px;
+  width: 100%;
+}
+
+.recipe__table {
+  display: flex;
+  flex-direction: column;
+}
+
+.recipe__tableRow {
+  display: flex;
+  padding: 16px 0;
+}
+
+.recipe__tableRow:not(:last-child) {
+  border-bottom: 1px solid #c7c7c7;
+}
+
+.recipe__tableCell {
+  flex-basis: 50%;
+}
+
+.attribution {
+  padding-top: 32px;
+}

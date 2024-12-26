@@ -1,0 +1,17 @@
+@media (min-width: 1200px) {
+  .recipe__background {
+    background-color: #F3E5D8;
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+
+  .recipe__content {
+    border-radius: 20px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .recipe__background {
+    padding-bottom: 64px;
+  }
+}
